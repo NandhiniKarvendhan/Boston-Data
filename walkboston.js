@@ -50,7 +50,7 @@ function renderTopemployees(boston, container) {
       "</h2>" +
       "<h3>" +
       topEmployees[i][11] +
-      "</h3>";
+      "</h3>"+ "<br/>";
   }
   container.innerHTML += '<ul id = "topEmployees">' + '<h1 style="color: red;">' +'Salaries above 200k' + '</h1>' + html + "</ul>";
 }
