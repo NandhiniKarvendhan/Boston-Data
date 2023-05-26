@@ -10,7 +10,7 @@ function renderPosts(boston, container) {
       "</h2>" +
       "<h3>" +
       people[i][11] +
-      "</h3>";
+      "</h3>" + "<br/>";
   }
   container.innerHTML = '<ul id = "data">' + html + "</ul>";
 }
