@@ -31,7 +31,7 @@ function renderTopsalaries(boston, container) {
       "</h2>" +
       "<h3>" +
       top5Salaries[i][11] +
-      "</h3>"+ "<br/>";
+      "</h3>";
   }
   console.log(top5Salaries);
   container.innerHTML = '<ul id = "topSalaries">' + '<h1 style="color: red;">' +'Top 5 salaries' + '</h1>' + html + "</ul>";
