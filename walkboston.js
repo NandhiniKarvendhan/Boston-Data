@@ -52,7 +52,7 @@ function renderTopemployees(boston, container) {
       topEmployees[i][11] +
       "</h3>"+ "<br/>";
   }
-  container.innerHTML += '<ul id = "topEmployees">' + '<h1 style="color: red;">' +'Salaries above 200k' + '</h1>' + html + "</ul>";
+  container.innerHTML += '<ul id = "topEmployees">' + '<br/> + '<h1 style="color: red;">' +'Salaries above 200k' + '</h1>' + html + "</ul>";
 }
 renderTopemployees(boston, document.getElementById("container"));
 
